@@ -78,20 +78,20 @@ WSGI_APPLICATION = 'MyApp.wsgi.application'
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'MyApp',
-#         'USER': 'postgres',
-#         'PASSWORD': 'Gh0tki786',
+#         'NAME': 'DB_NAME',
+#         'USER': 'DB_user_names',
+#         'PASSWORD': 'your password',
 #         'HOST': 'localhost'
 #     }
 # }
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'MyApp', # example - blog_data
-        'USER': 'postgres',
-        'PASSWORD': 'Gh0tki786',
-        'HOST': 'localhost',
+        ' 'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'DB_NAME',
+#         'USER': 'DB_user_names',
+#         'PASSWORD': 'your password',
+#         'HOST': 'localhost'
         'PORT': '5432'
     }
 }
