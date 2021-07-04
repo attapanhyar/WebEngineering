@@ -1,0 +1,65 @@
+{% block contents%}
+
+<img src="{{object.img.url}}" alt="" width="200" height="200">
+<h1>{{object.name}}</h1>
+<h3>{{object.Dept}}</h3><br>
+ 
+<table style="width:50%" align="left">
+    <tr>
+      <th>Qualification:</th>
+      <th><h3>{{object.qual}}</h3></th>
+    </tr>
+    <tr>
+      <td>Email: </td>
+      <td><h3>{{object.email}} </h3></td>
+      
+    </tr>
+    <tr>
+        <td>Research Interest: 
+        </td>
+        <td><h3>{{object.ResInt}}</h3></td>
+        
+      </tr>
+      <tr>
+        <td>Experience: </td>
+        <td><h3>{{object.Experience}}</h3></td>
+        
+      </tr>
+      <tr>
+        <td>Current Research: </td>
+        <td><h3>{{object.CurRes}}</h3></td>
+
+      </tr>
+      <tr>
+        
+        <td>Currently Teaching: </td>
+        <td><h3>{{object.CCurTeach}}</h3></td>
+      </tr>
+      <tr>
+        <td>Courses Taught:</td>
+        <td> <h3>{{object.CourTaugh}}</h3></td>
+        
+      </tr>
+      <tr>
+        <td>Toal Publications:</td>
+        <td><h3> {{object.Pub}}</h3></td>
+        
+      </tr>
+      <tr>
+        <td> Professional Membership(s):</td>
+        <td><h3> {{object.ProfMem}} </h3></td>
+        
+      </tr>
+  </table>
+
+  
+    
+  
+  
+  
+  
+ 
+  
+
+
+{% endblock%}
